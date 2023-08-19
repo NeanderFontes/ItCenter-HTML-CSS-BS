@@ -19,14 +19,22 @@
         <br />
         
         <!-- Barra de navegação -->
-        <nav id="navCesae">
-            <a href="https://www.cesaedigital.pt/" target="_blank">Página CESAE</a>
-            <a href="/projetoSMF/index.html">Home</a>
-            <a href="/projetoSMF/Paginas/SoftDev.html">Software Dev</a>
-            <a href="/projetoSMF/Paginas/about.html">Sobre Nós</a>
-            <a href="/projetoSMF/Paginas/form.html">Formulário</a>   
-            <br>         
-        </nav>
+        <div class="topnav">
+            <nav>
+                <a href="https://www.cesaedigital.pt/" target="_blank">Página CESAE</a>
+                <a href="/projetoSMF/index.html" class="active">Home</a>
+                <a href="/projetoSMF/Paginas/SoftDev.html">Software Dev</a>
+                <a href="/projetoSMF/Paginas/about.html">Sobre Nós</a>
+                <a href="/projetoSMF/Paginas/form.html">Formulário</a>
+                <div class="search-container">
+                    <form action="/projetoSMF/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit" onclick="alert('Submit')">Submit</button>
+                    </form>
+                </div>
+                <br>         
+            </nav>
+        </div>
     </header>
 
     <footer>
