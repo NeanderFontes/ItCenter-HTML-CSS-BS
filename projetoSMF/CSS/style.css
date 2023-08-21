@@ -142,7 +142,7 @@ footer {
 
 #mainH1 {
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(105, 105, 155);
     padding: 1rem;
 }
 
@@ -153,7 +153,7 @@ table {
 
 th,
 td {
-    color: white;
+    color: black;
     margin: auto;
     border: 1px solid black;
     border-radius: 10px;
@@ -163,16 +163,16 @@ td {
 }
 
 th {
-    background-color: green;
+    background-color: rgb(180, 180, 180);
 }
 
 td {
     padding: 1rem;
-    background-color: gold;
+    background-color: #fff
 }
 
 .colsPan {
-    background-color: blue;
+    background-color: rgb(105, 105, 155);
     text-align: left;
     padding: 1rem;
     font-weight: bolder;
@@ -180,7 +180,7 @@ td {
 }
 
 .colsPan2 {
-    background-color: blue;
+    background-color: rgb(105, 105, 155);
     text-align: center;
     padding: 1rem;
 }
