@@ -217,7 +217,14 @@ td {
     border-radius: 3px;
 }
 
-.submit-button {
+.form-input-date, .form-input-turma {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit-button, .reset-button {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -227,6 +234,7 @@ td {
 }
 
 .reset-button {
+    color: black;
     background-color: #ccc;
     margin-right: 10px;
 }
