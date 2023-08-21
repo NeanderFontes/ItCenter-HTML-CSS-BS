@@ -50,16 +50,11 @@ header {
     color: red;
 }
 
-#voltarTopoDiv {
-    /* border: 2px solid rgb(15, 15, 15); */
-    text-align: right;
-    margin-right: 10%;
-}
-
-/* Botao voltar topo Index.html */
+/* Botao voltar topo Todas Paáginas */
 #voltarTopoDivIndex {
     /* border: 2px solid rgb(15, 15, 15); */
     text-align: center;
+    padding: 20px 10px;
 }
 
 #voltarTopo {
