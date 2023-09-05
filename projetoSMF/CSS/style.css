@@ -61,14 +61,15 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.182);
     text-decoration: none;
     border-radius: 10px;
-    background-color: rgba(0, 255, 255, 0.237);
+    background-color: #E9E9E9;
+    color: black;
     padding: 6px;
 }
 
 #voltarTopo:hover {
     /* background: #53a7ea; */
     /* border-radius:50%; */
-    box-shadow: inset 0 0 0 25px #53a6ea85;
+    box-shadow: inset 0 0 0 25px #2196F3;
     color: white;
 }
 
