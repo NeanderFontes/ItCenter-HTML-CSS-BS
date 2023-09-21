@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centralizar o carrossel horizontalmente */
+.custom-carousel {
+    margin: 0 auto;
+    max-width: 50px;
+}
+
+/* Definir altura igual para os slides do carrossel */
+.custom-carousel .carousel-item img {
+    height: 100px; 
+    width: 50%; 
+}
+
+/* Articles */
+/* Estilos para os artigos personalizados */
+.custom-article {
+    background-color: #f5f5f5;
+    padding: 20px; 
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.custom-article h2 {
+    color: #333;
+}
+
+.custom-article p {
+    font-size: 16px; 
+    line-height: 1.6; 
+}
